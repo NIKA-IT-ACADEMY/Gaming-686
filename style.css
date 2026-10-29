@@ -24,10 +24,10 @@ h6 {
 /* Header styles */
 
 .header {
-  height: 60px;
+  height: 50px;
   display: flex;
   justify-content: space-between;
-  padding-inline: 5%;
+  padding-inline: 8%;
 }
 
 .logo img {
@@ -54,4 +54,32 @@ h6 {
 
 a.active {
   text-decoration: underline;
+}
+
+/* Hero Section Styles */
+
+.hero {
+  height: calc(100vh - 50px);
+  padding-inline: 8%;
+  display: flex;
+  align-items: center;
+  /* height: 1000vh; */
+  background-image: url("bg.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.hero-content h1 {
+  font-size: 60px;
+}
+
+.hero-content p {
+  font-size: 28px;
+  margin-block: 16px;
+}
+
+.hero-content img {
+  height: 40px;
 }
