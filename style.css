@@ -1,0 +1,57 @@
+/* General styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f6f4f0;
+  color: #272443;
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Hepta Slab", serif;
+}
+
+/* Header styles */
+
+.header {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 5%;
+}
+
+.logo img {
+  height: 100%;
+}
+
+/* Navigation styles */
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  background-color: #fff;
+  height: 100%;
+  border-radius: 0 0 16px 16px;
+  padding-inline: 30px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+}
+
+a.active {
+  text-decoration: underline;
+}
